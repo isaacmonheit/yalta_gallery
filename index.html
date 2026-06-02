@@ -24,11 +24,21 @@ TODO        : -
         
         <h2>Exhibitions</h2>
         <ul>
-        <a href="mailto:yaltagallery@icloud.com?subject=RSVP%20to%20Yalta%20Conference%20%231&body=Name:%20%0AEmail:%20">
-            Yalta Conference #1<br>
+           Yalta Conference #1<br>
             June 4th 2026<br>
             RSVP required<br> 
-        </a> </ul>
+        <form action="https://formsubmit.co/yaltagallery@icloud.com" method="POST">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="hidden" name="_subject" value="RSVP to Yalta Conference #1">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_honey" style="display:none">
+          <button type="submit">RSVP</button>
+        </form>
+        <!-- <a href="mailto:yaltagallery@icloud.com?subject=RSVP%20to%20Yalta%20Conference%20%231&body=Name:%20%0AEmail:%20"> -->
+           
+        <!-- </a>  -->
+        </ul>
         <h2>Past Exhibitions</h2>
         <ul>
           <p>Not Yet.
