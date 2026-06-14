@@ -3,6 +3,11 @@ body {
     font-size: 25px;
 }
 
+h1 {
+    padding-bottom: 0px;
+    margin-bottom: -24px;
+}
+
 .yaltapedia {
     display: flex;
     justify-content: center;
